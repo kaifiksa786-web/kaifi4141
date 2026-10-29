@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Professional Profile & Portfolio</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+        body {
+            background-color: #f8fafc;
+            color: #1e293b;
+            line-height: 1.6;
+        }
+        header {
+            background-color: #0f172a;
+            color: #fff;
+            padding: 1rem 2rem;
+            position: sticky;
+            top: 0;
+            z-index: 1000;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+        header h1 {
+            font-size: 1.25rem;
+            font-weight: 600;
+            letter-spacing: 0.5px;
+        }
+        nav a {
+            color: #94a3b8;
+            text-decoration: none;
+            margin-left: 1.5rem;
+            font-weight: 500;
+            transition: color 0.3s;
+            font-size: 0.95rem;
+        }
+        nav a:hover {
+            color: #fff;
+        }
+        .hero {
+            background: linear-gradient(135deg, #1e293b 0%, #0f172a 100%);
+            color: #fff;
+            text-align: center;
+            padding: 4rem 2rem;
+        }
+        .hero h2 {
+            font-size: 2.25rem;
+            margin-bottom: 0.5rem;
+            font-weight: 700;
+        }
+        .hero p {
+            font-size: 1.1rem;
+            color: #94a3b8;
+            max-width: 700px;
+            margin: 0 auto;
+        }
+        .container {
+            max-width: 1000px;
+            margin: 2.5rem auto;
+            padding: 0 1.5rem;
+        }
+        .section {
+            background: #fff;
+            padding: 2rem;
+            border-radius: 8px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.05);
+            margin-bottom: 2rem;
+            border: 1px solid #e2e8f0;
+        }
+        .section h3 {
+            font-size: 1.4rem;
+            color: #0f172a;
+            margin-bottom: 1.25rem;
+            border-bottom: 2px solid #f1f5f9;
+            padding-bottom: 0.5rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .job-header {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            flex-wrap: wrap;
+            margin-bottom: 0.5rem;
+        }
+        .job-title {
+            font-weight: 700;
+            color: #1e293b;
+            font-size: 1.1rem;
+        }
+        .job-dates {
+            color: #64748b;
+            font-size: 0.9rem;
+            font-weight: 500;
+        }
+        .job-company {
+            color: #3b82f6;
+            font-weight: 600;
+            font-size: 0.95rem;
+            margin-bottom: 0.75rem;
+        }
+        .list {
+            margin-left: 1.25rem;
+            margin-bottom: 1.5rem;
+        }
+        .list li {
+            margin-bottom: 0.4rem;
+            color: #334155;
+        }
+        .sub-heading {
+            font-weight: 600;
+            color: #475569;
+            margin: 0.75rem 0 0.25rem 0;
+            font-size: 0.95rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1rem;
+            margin-bottom: 1.5rem;
+            font-size: 0.95rem;
+        }
+        th, td {
+            border: 1px solid #e2e8f0;
+            padding: 0.75rem;
+            text-align: left;
+        }
+        th {
+            background-color: #f8fafc;
+            color: #1e293b;
+            font-weight: 600;
+        }
+        .skills-p {
+            color: #334155;
+            background: #f8fafc;
+            padding: 1rem;
+            border-radius: 6px;
+            border-left: 4px solid #64748b;
+            font-size: 0.95rem;
+        }
+        footer {
+            text-align: center;
+            padding: 1.5rem;
+            background-color: #0f172a;
+            color: #94a3b8;
+            font-size: 0.85rem;
+            margin-top: 4rem;
+        }
+        @media (max-width: 600px) {
+            .job-header {
+                flex-direction: column;
+            }
+            .job-dates {
+                margin-top: 0.25rem;
+                margin-bottom: 0.5rem;
+            }
+            header {
+                flex-direction: column;
+                padding: 1rem;
+            }
+            nav {
+                margin-top: 0.75rem;
+            }
+            nav a {
+                margin: 0 0.5rem;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Professional Portfolio</h1>
+        <nav>
+            <a href="#experience">Experience</a>
+            <a href="#education">Education</a>
+            <a href="#qualifications">Qualifications</a>
+            <a href="#skills">Skills & Certificates</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <h2>Professional Profile</h2>
+        <p>Audit & Accounts Assistance | Finance & Management Professional</p>
+    </section>
+
+    <div class="container">
+        
+        <section id="experience" class="section">
+            <h3>Work & Internship Experience</h3>
+            
+            <div class="job-entry">
+                <div class="job-header">
+                    <span class="job-title">Designation – Audit & Accounts Assistance</span>
+                    <span class="job-dates">19th August 2019 – 15th March 2023</span>
+                </div>
+                <div class="job-company">P. S. BHARGAVA & CO. (000834C) — Chartered Accountants Firm, Lucknow, U.P. (INDIA)</div>
+                <p style="color: #64748b; font-size: 0.9rem; margin-bottom: 0.75rem; font-style: italic;">
+                    Reputed and experienced Chartered Accountant Firm which assists clients on various financial matters and conducts all types of Audits like Statutory Audit, Internal Audit, Bank Audit, Stock Audits for various corporate and non-corporate clients.
+                </p>
+                
+                <div class="sub-heading">Taxation</div>
+                <ul class="list">
+                    <li>E-filing of Income Tax Return.</li>
+                    <li>Tax Planning.</li>
+                </ul>
+
+                <div class="sub-heading">GST</div>
+                <ul class="list">
+                    <li>Filing GST Return.</li>
+                    <li>Reconciliation with 3B and GSTR1.</li>
+                </ul>
+
+                <div class="sub-heading">Accounting</div>
+                <ul class="list">
+                    <li>Finalization of account of PVT companies and NGOs & Government Scheme.</li>
+                    <li>Bank Reconciliation with the cash book.</li>
+                </ul>
+
+                <div class="sub-heading">Auditing</div>
+                <ul class="list">
+                    <li>Team Member of Internal audit of government departments.</li>
+                    <li>Team Member of Statutory Audit.</li>
+                    <li>Team Member of Physical Verification.</li>
+                </ul>
+
+                <div class="sub-heading">Reports</div>
+                <ul class="list">
+                    <li>Creating weekly and monthly sale report item wise.</li>
+                    <li>Checking the daily sale transactions from the website and updating the profit.</li>
+                </ul>
+
+                <div class="sub-heading">Management</div>
+                <ul class="list">
+                    <li>Managing all the employees with their works and need.</li>
+                    <li>Hiring employees and scheduling their interviews with the candidates from overseas.</li>
+                    <li>Monitoring all the employees with their tasks and targets.</li>
+                </ul>
+            </div>
+
+            <div class="job-entry" style="margin-top: 2rem; border-top: 1px dashed #e2e8f0; padding-top: 1.5rem;">
+                <div class="job-header">
+                    <span class="job-title">Designation – Finance Internship (Virtual Internship)</span>
+                    <span class="job-dates">10th June, 2018 – 24th July, 2018</span>
+                </div>
+                <div class="job-company">CHAI SUTTA BAR (CSB) — Multi Nation Company, Indore, Madhya Pradesh</div>
+                <ul class="list">
+                    <li>Analysis of Financial statements</li>
+                    <li>Formulate Strategies of CSB</li>
+                    <li>Preparation of PPT on CSB</li>
+                    <li>Group Discussion on CSB about Finance Risk</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="education" class="section">
+            <h3>Educational Qualifications</h3>
+            
+            <div class="sub-heading">Professional Qualification</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Professional Nomenclature</th>
+                        <th>Institute</th>
+                        <th>Year of Passing & Marks in (%)</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><strong>Master of Business Administration (MBA)</strong></td>
+                        <td>Dr. Shakuntala Mishra National Rehabilitation University</td>
+                        <td>2022</td>
+                    </tr>
+                </tbody>
+            </table>
+
+            <div class="sub-heading">Academic Qualifications</div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>Examination Passed</th>
+                        <th>Board / School / College / University</th>
+                        <th>Year of Passing</th>
+                    </tr>
+                </thead>
